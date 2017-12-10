@@ -31,7 +31,7 @@ class Home extends Component {
     });
     return (
       <div className={styles.base}>
-        <h1>Cryptocurrency</h1>
+        <div>Topten</div>
         {/* <Link to="/se ttings">Settings</Link> */}
         <ul>{listItems}</ul>
       </div>

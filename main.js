@@ -24,9 +24,10 @@ const installExtensions = async () => {
 // menubar
 const mb = menubar({
   alwaysOnTop: process.env.NODE_ENV === 'development',
-  minWidth: 500,
-  // maxWidth: 500,
-  minHeight: 500,
+  minWidth: 280,
+  // maxWidth: 250,
+  minHeight: 350,
+  // maxHeight: 350,
   preloadWindow: true,
   resizable: true,
   transparent: true,
